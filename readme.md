@@ -40,13 +40,16 @@
 
  1. Ambil kodenya dulu:
 
-        git clone https://github.com/namauser/nama-repo-anda.git     cd nama-repo-anda         
+        git clone https://github.com/namauser/nama-repo-anda.git     
+        cd nama-repo-anda         
 
     (Jangan lupa ganti namauser/nama-repo-anda dengan informasi repositori kamu ya!)
 
  2. Bikin Rumah Baru buat Kodenya (Opsional sih, tapi bagusnya gitu!):
 
-        python -m venv venv     # Untuk Windows     venv\Scripts\activate     # Untuk macOS/Linux     source venv/bin/activate         
+        python -m venv venv     
+        # Untuk Windows     venv\Scripts\activate     
+        # Untuk macOS/Linux     source venv/bin/activate         
 
  3. Instal alat-alatnya:
 
@@ -54,7 +57,10 @@
 
     (Kalau belum ada, bikin aja file requirements.txt isinya kayak gini:)
 
-        streamlit     easyocr     numpy     opencv-python-headless # Ini buat server tanpa tampilan grafis     Pillow         
+        streamlit     
+        easyocr     
+        numpy     
+        opencv-python-headless # Ini buat server tanpa tampilan grafis     Pillow         
 
  ---
 
