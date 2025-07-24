@@ -60,7 +60,8 @@
         streamlit     
         easyocr     
         numpy     
-        opencv-python-headless # Ini buat server tanpa tampilan grafis     Pillow         
+        opencv-python-headless    
+        Pillow         
 
  ---
 
